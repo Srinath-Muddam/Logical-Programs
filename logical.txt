@@ -1,0 +1,1145 @@
+1) hello  
+
+class Hello
+{
+public static void main(String args[])
+{
+System.out.println("welcome to java");
+}
+}
+
+========================================================================---
+2) read a charcter and print it twice
+
+import java.util.*;
+class Char
+{
+public static void main(String args[])
+{
+int i;
+char ch;
+System.out.println("enter a character");
+Scanner s=new Scanner(System.in);
+ch=s.next().charAt(0);
+for(i=1;i<3;i++)
+{
+System.out.println(ch);
+}
+
+}
+}
+
+
+=========================================================================-----------------
+3)
+read a string and print it twice
+
+import java.util.*;
+class TwiceStr
+{
+public static void main(String args[])
+{
+int i;
+String a;
+System.out.println("enter a string");
+Scanner s=new Scanner(System.in);
+a=s.nextLine();
+for(i=1;i<3;i++)
+{
+System.out.println(a);
+}
+
+}
+}
+
+
+
+===============================================================================---------------
+4)read two numbers and print sum of 2 numbers
+
+import java.util.*;
+class Add
+{
+public static void main(String args[])
+{
+int a,b,c;
+Scanner s=new Scanner(System.in);
+System.out.println("enter a");
+a=s.nextInt();
+System.out.println("enter b");
+b=s.nextInt();
+c=a+b;
+
+System.out.println("sum is "+c);
+}
+}
+-==============================================================================-
+5)
+read age from user and print eligibility for voting
+
+import java.util.*;
+class VoteEligibility
+{
+public static void main(String args[])
+{
+int age;
+System.out.println("Enter age");
+Scanner s=new Scanner(System.in);
+age=s.nextInt();
+if(age>18)
+{
+System.out.println("Eligible to vote");
+}
+else
+{
+System.out.println("Not eligible to vote");
+}
+}
+}
+=======================================================================================----------
+6)
+read a charcter and print small or capital or number or special charcter
+
+
+import java.util.*;
+class SmCaNuSp
+{
+public static void main(String args[])
+{
+char ch;
+Scanner s=new Scanner(System.in);
+System.out.println("enter character");
+ch=s.next().charAt(0);
+if(ch>=65&&ch<=90)
+{
+System.out.println("capital");
+}
+else 
+if(ch>=97&&ch<=122)
+{
+System.out.println("small");
+}
+else 
+if(ch>='0'&&ch<='9')
+{
+System.out.println("numbers");
+}
+else
+{
+System.out.println("special characters");
+}
+}
+}
+
+
+
+
+
+
+=======================================================================------
+7)
+read a month number from user and print season of that month
+
+import java.util.*;
+class PrintMonth
+{
+public static void main(String args[])
+{
+int i;
+System.out.println("enter month number");
+Scanner s=new Scanner(System.in);
+i=s.nextInt();
+switch(i)
+{
+case 1:
+
+System.out.println("january");
+break;
+
+case 2:
+
+System.out.println("february");
+break;
+
+case 3:
+
+System.out.println("march");
+break;
+
+case 4:
+
+System.out.println("april");
+break;
+
+case 5:
+
+System.out.println("may");
+break;
+
+case 6:
+
+System.out.println("june");
+break;
+
+case 7:
+
+System.out.println("july");
+break;
+
+case 8:
+
+System.out.println("august");
+break;
+
+case 9:
+
+System.out.println("september");
+break;
+
+case 10:
+
+System.out.println("october");
+break;
+
+case 11:
+
+System.out.println("november");
+break;
+
+case 12:
+
+System.out.println("december");
+break;
+
+default:
+System.out.println("not a year number");
+}
+}
+}
+
+
+
+===============================================================
+8)
+read a month number from user and print name of that month
+
+
+import java.util.*;
+class PrintSeason
+{
+public static void main(String args[])
+{
+int i;
+System.out.println("enter month number");
+Scanner s=new Scanner(System.in);
+i=s.nextInt();
+if(i>=7&&i<=10)
+{
+System.out.println("rainy season");
+}
+else
+if(i>=11&&i<=12)
+{
+System.out.println("winter season");
+}
+else
+if(i>=1&&i<=2)
+{
+System.out.println("winter season");
+}else
+if(i>=3&&i<=6)
+{
+System.out.println("summer season");
+}
+}
+}
+
+
+
+
+
+===================================================================----------------
+9)read a alphabet from user and print vowel or consonent
+
+import java.util.*;
+class VowelConsonant
+{
+public static void main(String args[])
+{
+char ch;
+Scanner s=new Scanner(System.in);
+System.out.println("enter an alphabet");
+
+ch=s.next().charAt(0);
+if(ch=='a' || ch=='e' ||ch=='i'||ch=='o'||ch=='u')
+{
+System.out.println("it is a vowel");
+}
+else
+if(ch=='A' || ch=='E' ||ch=='I'||ch=='O'||ch=='U')
+{
+System.out.println("it is a vowel");
+}
+else
+{
+System.out.println("it is a consonant");
+}
+}
+}
+
+========================================================================================-----------
+10
+hello 5 times
+
+class HelloLoop
+{
+public static void main(String args[])
+{
+String s="hello";
+for(int i=1;i<6;i++)
+{
+System.out.println(s);
+}
+}
+}
+
+
+
+
+========================================================================================--
+11
+display 5 th table
+
+class HelloLoop
+{
+public static void main(String args[])
+{
+int five;
+for(int i=5;i<6;i++)
+{
+for(int j=1;j<11;j++)
+{
+five=i*j;
+System.out.println("5x"+j+"="+five);
+}
+}
+}
+}
+===========================================================================================----
+
+12) display 6th to 14 th table
+
+class HelloLoop
+{
+public static void main(String args[])
+{
+int table;
+for(int i=6;i<15;i++)
+{
+for(int j=1;j<11;j++)
+{
+table=i*j;
+System.out.println(+i+"x"+j+"="+table);
+}
+}
+}
+}
+
+=====================================================================================-------
+13)
+pattern 
+
+public class Pattern {
+
+	public static void main(String[] args)
+	{
+		
+	for(int i=1;i<6;i++)
+	{
+	for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+		System.out.println();
+		}
+	}
+}
+
+
+===================================================================================--
+14
+--
+read rollno and marks and store in array and print
+
+
+import java.util.*;
+public class RollMarksArray {
+
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter marks");
+		int marks;
+		marks=s.nextInt();
+		System.out.println("enter roll no");
+		int rollno;
+		rollno=s.nextInt();
+		int arr[]=new int[2];
+
+	arr[0]=marks;
+	arr[1]=rollno;
+	System.out.println("marks=" +arr[0]+ ",rollno="+arr[1]);
+}
+		
+	}
+
+
+
+======================================================================================--
+15
+read elements from user and store them in array and find biggest element in the array
+
+
+import java.util.*;
+public class FiveElementsUserArray {
+
+	public static void main(String[] args) {
+		
+		int arr[]=new int[5];
+Scanner s=new Scanner(System.in);
+int sum=0;
+int big;
+int temp;
+for(int i=0;i<5;i++)
+{
+	System.out.println("enter "+(i+1)+ " number");
+	arr[i]=s.nextInt();
+	}
+big=arr[0];
+for(int i=0;i<5;i++)
+{
+
+	
+	if(big<arr[i])
+	{
+		big=arr[i];
+		 
+		}
+	}
+	
+
+System.out.println(big);
+
+}
+
+}
+
+
+=========================================================================================--
+16
+read elements from user and store them in array and find smallest element in the array
+
+import java.util.*;
+public class FiveElementsUserArray {
+
+public static void main(String[] args) 
+{		
+int arr[]=new int[5];
+Scanner s=new Scanner(System.in);
+int sum=0;
+int small;
+int temp;
+for(int i=0;i<5;i++)
+{
+System.out.println("enter "+(i+1)+ " number");
+arr[i]=s.nextInt();
+}
+small=arr[0];
+for(int i=0;i<5;i++)
+{	
+	if(small>arr[i])
+	{
+	small=arr[i];
+		 
+	}
+	}
+	
+
+System.out.println(small);
+
+}
+
+}
+
+
+
+=========================================================================================--
+17
+print a to z and A to Z
+
+class SmallCapAlphabets
+{
+public static void main(String args[])
+{
+char ch;
+for(ch=97;ch<=122;ch++)
+{
+System.out.print(ch);
+}
+System.out.println();
+for(ch=65;ch<=90;ch++)
+{
+System.out.print(ch);
+}
+}
+}
+
+======================================================================================--
+18
+read marks from student  and store them in array and find sum and average
+
+import java.util.*;
+class ArrayTotAvg
+{
+public static void main(String args[])
+{
+int arr[]=new int[10];
+int sum=0;
+Scanner s=new Scanner(System.in);
+System.out.println("enter no of  subjects");
+int n=s.nextInt();
+for(int i=0;i<n;i++)
+{
+System.out.println("enter subject marks "+(i+1));
+
+arr[i]=s.nextInt();
+
+sum=sum+arr[i];
+}
+System.out.println("total="+sum);
+int avg=sum/n;
+System.out.println("average="+avg);
+
+}
+
+}
+
+  
+
+========================================================================================--
+19
+--
+exam
+
+1)find max between two numbers
+
+import java.util.*;
+public class Pattern {
+
+	public static void main(String[] args)
+	{
+		int i,j;
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("enter number ");
+		i=s.nextInt();
+		System.out.println("enter number ");
+        j=s.nextInt();
+        if(i>j)
+        {
+        	System.out.println("max num is" +i);
+        }
+        else
+        {
+        	System.out.println("max num is " +j);
+        }
+		
+	}
+}
+
+
+----------------------------------------------------------
+2)find min between two numbers
+import java.util.*;
+public class Pattern {
+
+	public static void main(String[] args)
+	{
+		int i,j;
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("enter number ");
+		i=s.nextInt();
+		System.out.println("enter number ");
+        j=s.nextInt();
+        if(i<j)
+        {
+        	System.out.println("min num is" +i);
+        }
+        else
+        {
+        	System.out.println("min num is " +j);
+        }
+		
+	}
+}
+
+----------------------------------------------------------
+3)check a number is positive or negative or zero
+
+import java.util.*;
+public class PositiveNegative {
+
+	public static void main(String[] args) {
+int i;
+Scanner s=new Scanner(System.in);
+System.out.println("enter number");
+i=s.nextInt();
+if(i==0)
+{
+	System.out.println("zero");
+}
+else
+	if(i<0)
+	{
+		System.out.println("negative number");
+	}
+	else
+	{
+		System.out.println("positive");
+	}
+
+	}
+
+}
+
+
+-----------------------------------------------------------
+4)check number is devisible by 5 or 11 or not
+
+import java.util.*;
+public class Divisible5or11 {
+
+	public static void main(String[] args) {
+int i;
+Scanner s=new Scanner(System.in);
+System.out.println("enter number");
+i=s.nextInt();
+if(i%5==0){
+	System.out.println("divisible by 5");
+}
+else 
+	if(i%11==0)
+	{
+		System.out.println("divisible by  11");
+	}
+	else
+	{
+		System.out.println("not divisible");
+	}
+
+	}
+
+}
+
+--------------------------------------------------------
+5)even or odd
+
+import java.util.*;
+public class EvenOdd {
+
+	public static void main(String[] args) {
+		int i;
+Scanner s=new Scanner(System.in);
+System.out.println("enter  number");
+i=s.nextInt();
+if(i%2==0)
+{
+	System.out.println("even number");
+}
+else
+{
+	System.out.println("odd number");
+}
+	}
+
+}
+
+
+-------------------------------------------------------
+6)read year from user and print leap year or not 
+
+import java.util.*;
+public class LeapYear {
+
+	public static void main(String[] args) {
+		int i;
+System.out.println("enter  year");
+	Scanner s=new Scanner(System.in);
+	i=s.nextInt();
+	if(i%4==0)	
+	{
+		if(i%100==0)
+		{
+			if(i%400==0)
+			{
+			
+			System.out.println("leap year");
+			}
+			else
+			{
+				System.out.println("not a leap year");
+		       }
+		}
+			
+			else
+			{
+				System.out.println("leap year");
+			}
+	
+	}
+		
+	
+	else 
+	{
+		System.out.println("not a leap year");
+	}
+	
+	}
+	}
+
+
+
+
+
+
+========================================================================================-------
+
+20
+---
+sort an array
+
+
+import java.util.*;;
+class Sorting
+{
+public static void main(String args[])
+{
+int temp,i,j;
+Scanner s=new Scanner(System.in);
+System.out.println("enter number of numbers");
+int n=s.nextInt();
+int arr[]=new int[n];
+System.out.println("enter numbers");
+for(i=0;i<n;i++)
+{
+arr[i]=s.nextInt();
+}
+System.out.println("=============");
+System.out.println("ascending order is");
+
+for(i=0;i<n;i++)
+{
+for(j=i+1;j<n;j++)
+{
+if(arr[i]>arr[j])
+{
+temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+}
+}
+System.out.println(arr[i]);
+}
+System.out.println("descendig order is");
+for(i=0;i<n;i++)
+{
+for(j=i+1;j<n;j++)
+{
+if(arr[i]<arr[j])
+{
+temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+
+}
+}
+System.out.println(arr[i]);
+}
+}
+}
+==========================================================================================--
+21
+find length of a string 
+with pointer and with out pointer
+
+=========================================================================================--
+22
+--
+palindrome program
+
+import java.util.*;
+class Palindrome
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);  
+String g;
+int i;
+System.out.println("enter a word");
+g=s.nextLine();
+
+char ch[]=new char[50];
+
+for(i=0;i<g.length();i++)
+{
+ch[i]=g.charAt(i);
+}
+int length=g.length();
+
+i=0;
+while(i<=length)
+{
+
+if(ch[i]==ch[length-1])
+{
+i++;
+length--;
+}
+else
+{
+System.out.println("not a palindrome");
+break;
+}
+}
+if(i>=length)
+{
+System.out.println("palindrome");
+}
+}
+}
+
+===========================================================================================--
+23
+read a character and convert into capital
+
+import java.util.*;
+class CharCap
+{
+public static void main(String args[])
+{
+char ch;
+Scanner s=new Scanner(System.in);
+System.out.println("enter character");
+ch=s.next().charAt(0);
+int p=ch;
+p=p-32;
+ch=(char)p;
+System.out.println(ch);
+}
+}
+
+
+===========================================================================================--
+24
+
+read a string and convert into capital
+
+import java.util.*;
+class StrCap
+{
+public static void main(String args[])
+{
+String s;
+char ch[]=new char[50];
+Scanner q=new Scanner(System.in);
+System.out.println("enter word");
+s=q.nextLine();
+for(int i=0;i<s.length();i++)
+{
+ch[i]=s.charAt(i);
+int p=ch[i];
+p=p-32;
+char cap;
+cap=(char)p;
+
+System.out.print(cap);
+
+}
+}
+}
+
+=============================================================================================--
+25
+-
+read a number and check whether it is prime or not
+
+
+import java.util.*;
+class PrimeOrNot
+{
+public static void main(String args[])
+{
+int i;
+int n;
+int count=0;
+System.out.println("enter number");
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+
+for(i=1;i<=n;i++)
+{
+if(n%i==0)
+{
+count++;
+}
+}
+
+if(count==2)
+{
+System.out.println("prime number");
+
+} 
+else
+{
+System.out.println("not a prime number");
+
+}
+}
+}
+
+-=========================================================================
+26
+fibonacci series program
+
+import java.util.*;
+class Fibonacci
+{
+public static void main(String args[])
+{
+int a,b,c,i,n;
+System.out.println("enter the fibonacci limit");
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+a=0;
+b=1;
+System.out.println(a);
+System.out.println(b);
+for(i=2;i<n;i++)
+{
+c=a+b;
+System.out.println(c);
+a=b;
+b=c;
+}
+}
+}
+
+
+
+
+-===============================================================================
+
+27.read email from user and print no of small,capital, special charcter, number
+
+
+import java.util.*;
+class Email
+{
+
+public static void main(String[] args)
+{
+String email;
+int i,small=0,capital=0,numbers=0,special=0;
+char ch[]=new char[40];
+Scanner s=new Scanner(System.in);
+System.out.println("Enter Email");
+
+email=s.nextLine();
+ch=email.toCharArray();
+System.out.println(ch);
+
+
+for(i=0; i<email.length();i++)
+{
+
+
+if(ch[i]>='a'&&ch[i]<='z')
+{
+small++;
+}
+else
+if(ch[i]>='A'&&ch[i]<='Z')
+{
+capital++;
+}
+else
+if(ch[i]>='1'&&ch[i]<='9')
+{
+numbers++;
+}
+else
+{
+special++;
+}
+
+
+}
+
+System.out.println("small letters="+small);
+System.out.println("capital letters="+capital);
+System.out.println("numbers="+numbers);
+System.out.println("special characters="+special);
+
+}
+}
+
+===============================================================================
+28.reverse of a number
+
+import java.util.*;
+class RevNum
+{
+public static void main(String args[])
+{
+int n,rem,rev=0,i;
+System.out.println("enter number");
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+
+
+
+while(n != 0)
+    {
+        rem = n%10;
+
+        rev= rev*10 +rem;
+
+        n=n/10;
+
+
+    }
+System.out.println(rev);
+}
+}
+========================================================================================
+29.read numbers from user and search the number,if found-found at nth position else not found.
+
+
+import java.util.*;
+class SearchNumber
+{
+public static void main(String args[])
+{
+int i,n,p;
+System.out.println("enter no of elements");
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+
+int arr[]=new int[n+1];
+for(i=0;i<n;i++)
+{
+i++;
+System.out.println("enter element "+i);
+
+p=s.nextInt();
+i--;
+arr[i]=p;
+
+}
+for(i=0;i<n;i++)
+{
+System.out.println("entered numbers are "+arr[i]);
+
+}
+int search;
+System.out.println("enter search element");
+
+
+search=s.nextInt();
+
+for(i=0;i<n;i++)
+{
+if(search==arr[i])
+{
+
+System.out.println("element found at position " +(i+1));
+break;
+}
+
+}
+if(i==n)
+{
+System.out.println("element not found");
+}
+}
+}
+=================================================================================
+
+30.factorial of a number using recursion.
+
+
+
+import java.util.*;
+class Z
+{
+	
+	int i=0;
+	int fact=1;
+
+	
+	void l(int n)
+	{
+			
+			
+		i++;
+		fact=fact*i;
+		
+		if(i==n)
+		{
+			System.out.println("result="+fact);
+			return;
+		}
+		
+	l(n);	
+	}
+	
+}
+public class ExeRecursive {
+
+	public static void main(String[] args) {
+	
+		System.out.println("enter number");
+		Scanner s=new Scanner(System.in);
+		int n;
+		n=s.nextInt();
+		
+		Z e=new Z();
+		
+		
+		e.l(n);
+		
+		
+	}
+
+}
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
